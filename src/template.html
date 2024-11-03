@@ -27,8 +27,37 @@
         <div class="content">
             <h1 class="project-h1">Project Name</h1>
             <div class="card-container">
-
+                <div class="todo">
+                    
+                </div>
             </div>
+            <button class="add-todo">add</button>
+        </div>
+
+        <div class="overlay">
+            <form action="#">
+                <div class="form-row">
+                    <label for="title">Title</label>
+                    <input type="text" id="title"
+                            name="title">
+                </div>
+                <fieldset>
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description"></textarea>
+
+                </fieldset>
+                <div class="form-row">                    
+                    <label for="priority">Priority</label>
+                    <select name="priority" id="priority">
+                        <option value="" selected>Low</option>
+                        <option value="">Medium</option>
+                        <option value="">High</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <button type="button" class="add-todo">Add</button>
+                </div>
+            </form>
         </div>
     </div>
 </body>

@@ -1,5 +1,5 @@
 import "./styles.css";
-import { loadProject } from "./sidebar";
+import { loadProject } from "./sidebar.js";
 function UpdateScreen() {
     const menuBtn = document.querySelector(".menu-btn");
 
@@ -11,5 +11,4 @@ function UpdateScreen() {
     loadProject();
 
 }
-
 UpdateScreen();
