@@ -9,7 +9,7 @@
     <div class="container">
         <header>
             <h1>To-Dos</h1>
-            <button class="menu-btn">icon</button>
+            <button class="menu-btn"><img src="16d4b28c963b8ecf2ef8.svg" alt="menu"></button>
         </header>
 
         <div class="sidebar">
@@ -20,18 +20,17 @@
                 <button class="add-new-project">Add new project</button>
             </div>
             <div class="project-container">
-                
             </div>
         </div>
 
         <div class="content">
-            <h1 class="project-h1">Project Name</h1>
+            <h1 class="project-h1">Your Todos!</h1>
             <div class="card-container">
-                <div class="todo">
-                    
-                </div>
+
             </div>
-            <button class="add-todo">add</button>
+            <div class="btn-container">
+                <button class="add-todo"><img src="3cffe9a515498593b872.svg" alt="plus"></button>
+            </div>
         </div>
 
         <div class="overlay">
@@ -43,19 +42,19 @@
                 </div>
                 <fieldset>
                     <label for="description">Description</label>
-                    <textarea name="description" id="description"></textarea>
+                    <textarea name="description" id="description" cols="25" rows="5"></textarea>
 
                 </fieldset>
                 <div class="form-row">                    
                     <label for="priority">Priority</label>
                     <select name="priority" id="priority">
-                        <option value="" selected>Low</option>
-                        <option value="">Medium</option>
-                        <option value="">High</option>
+                        <option value="Low" selected>Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
                     </select>
                 </div>
-                <div class="form">
-                    <button type="button" class="add-todo">Add</button>
+                <div class="form-row">
+                    <button type="button" class="create-todo">Add</button>
                 </div>
             </form>
         </div>
