@@ -17,7 +17,6 @@ function UpdateScreen() {
     });
 
     loadProject();
-
     
 }
 UpdateScreen();
