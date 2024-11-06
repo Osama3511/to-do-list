@@ -18,5 +18,6 @@ function UpdateScreen() {
 
     loadProject();
 
+    
 }
 UpdateScreen();
