@@ -1,8 +1,6 @@
 import { displayForm,createTodo,hideForm,addNewTodo } from "./todo";
 
 export function loadProject() {
-
-
     const addProject = document.querySelector(".add-new-project");
     addProject.addEventListener("click", addNewProject);
 
@@ -14,9 +12,7 @@ export function loadProject() {
         addNewTodo();
         hideForm();
     })
-
     loadExistingProjects();
-    
 }
 
 function addNewProject() {
